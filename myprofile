@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta 	charset="utf-8">
+	<title>欢迎访问杜周银的主页</title>
+
+<link rel="stylesheet" type="text/css" 
+	  href ="test1.css"/>
+<script type="text/javaScript" src="myjs.js"></script>
+	 </head>
+<body>	
+<div class="mydiv">
+	<!--个人简历 包含照片-->
+<img  src="image1.png" alt="这是我的头像"/>
+<!--个人经历简介，以有序列表形式显示-->
+
+<h2>个人经历</h2>
+
+	<ol>
+		<li>2013年，我从<strong>江苏省东台中学</strong>毕业.</li>
+		<li>2013年，我来到这儿——<b>南京邮电大学</b></li>
+		<li>2017年，我将从这儿毕业</li>
+	</ol>
+
+<!--个人喜欢的4本书，以无序列表显示-->
+<h2>我喜欢的4本书</h2>
+<ul>
+	
+<li>《我的奋斗》</li>
+<li>《人月神话》</li>
+<li>《老人与海》</li>
+<li>《战争与和平》</li>
+</ul>
+
+
+
+<!--个人兴趣简介，以段落文字方式显示，或以列表显示-->
+<h2>个人兴趣</h2>
+<p>跑步 打游戏 看电影</p>
+
+<!-- 列出6门主干课程成绩，以表格形式显示 -->
+<h2>课程成绩</h2>
+<table >
+	
+<caption></caption>
+<tr>
+	<th>课程名</th>
+	<th>开课学期</th>
+	<th>任课教师</th>
+	<th>分数</th>
+</tr>
+		<tr>
+			<th>高等数学</th>
+			<th>2012秋季</th>
+			<th>张三</th>
+			<th>90</th>
+		</tr>
+
+		<tr>
+			<th>离散数学</th>
+			<th>2012秋季</th>
+			<th>李四</th>
+			<th>80</th>
+		</tr>
+		<tr>
+			<th>线性代数</th>
+			<th>2013秋季</th>
+			<th>王五</th>
+			<th>85</th>
+		</tr>
+		<tr>
+			<th>大学物理</th>
+			<th>2014春季</th>
+			<th>张麻子</th>
+			<th>90</th>
+		</tr>
+		<tr>
+			<th>c语言程序设计</th>
+			<th>2013秋季</th>
+			<th>陈大</th>
+			<th>90</th>
+		</tr>
+		<tr>
+			<th>数据结构</th>
+			<th>2013秋季</th>
+			<th>胥备</th>
+			<th>90</th>
+		</tr>
+
+
+
+</table>
+</div>
+
+<a href="http://www.njupt.edu.cn"><font color="white">南京邮电大学</font></a>
+
+<form name="fquad">
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                <h2>
+                <input size="4" name="fa" type="text"> x<sup>2</sup>+ 
+                <input size="4" name="fb" type="text"> x + 
+                <input size="4" name="fc" type="text"> = 0 
+                <input onclick="checkQuad()" type="button" value="计算"> 
+                <input type="reset" value="重置"> 
+                </h2> 	
+                <p align="center"><font face="Arial"><b>一元二次方程的解</b></font></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <h2>
+                x<sub>1</a></sub>=<input size="45" name="x1" type="text"> 
+                <br>
+                x<sub>2</sub>=<input size="45" name="x2" type="text"> 
+                </h2>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+
+</body>
+</html>
